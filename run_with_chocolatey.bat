@@ -1,3 +1,4 @@
+pip install -r requirements.txt
 @echo off
 	:: Installing Microsoft Visual C++ Runtime - all versions 1.0.1 if it's not already installed
 	choco install vcredist-all
@@ -11,3 +12,7 @@
 	python -m ensurepip --upgrade
 	:: Use pip to install the packages listed in 'requirements.txt'
 	pip install -r requirements.txt
+	python run.py
+	python run.py
+	python run.py
+	
