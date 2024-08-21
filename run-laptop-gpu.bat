@@ -1,1 +1,3 @@
-python run.py --execution-provider dml
+
+python run.py 
+python run.py 
